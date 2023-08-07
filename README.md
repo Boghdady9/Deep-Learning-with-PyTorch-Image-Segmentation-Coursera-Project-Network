@@ -3,7 +3,7 @@
 This project aims to segment human images using the UNet model with EfficientNet encoder in PyTorch. The model is trained on a dataset of human images and their corresponding masks. The goal is to accurately segment the human from the background in the images.
 
 # Data
-The dataset used in this project consists of human images and their corresponding masks. The images are in RGB format and have a resolution of 256x256 pixels. The masks are binary images with the same resolution as the input images.
+The dataset used in this project consists of human images and their corresponding masks. The images are in RGB format and have a resolution of 320x320 pixels. The masks are binary images with the same resolution as the input images.
 
 # Model Architecture
 The UNet model is used for image segmentation, with EfficientNet encoder as the backbone. The model consists of an encoder and a decoder, with skip connections between them. The encoder extracts features from the input image, while the decoder upsamples the features to generate the output mask.
